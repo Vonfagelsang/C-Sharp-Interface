@@ -4,7 +4,7 @@ class Sphere : IShape
     double Diameter = 20;
     public double Area()
     {
-        return (4 / 3 * 3.14 * radius * radius * radius);
+        return (1.333333 * 3.14 * radius * radius * radius);
     }
     public double Circumferance()
     {
